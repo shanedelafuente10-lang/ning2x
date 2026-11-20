@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #17293b;
+  background: linear-gradient(135deg, #dbeafe 0%, #e0e7ff 45%, #fae8ff 100%);
+  background-attachment: fixed;
+}
+main { max-width: 1100px; margin: auto; padding: 24px; }
+form, section {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 18px;
+  border-radius: 8px;
+  margin: 14px 0;
+  box-shadow: 0 4px 14px rgba(23, 41, 59, 0.12);
+}
+label { display: block; margin: 12px 0; }
+input, select { display: block; box-sizing: border-box; width: 100%; padding: 10px; margin-top: 5px; }
+button { margin: 6px 8px 6px 0; padding: 10px 14px; cursor: pointer; }
+[role="status"] { min-height: 1.4em; font-weight: bold; }
+[hidden] { display: none !important; }
+
+.table-wrap { overflow-x: auto; margin-top: 12px; }
+table { width: 100%; border-collapse: collapse; background: white; font-size: 14px; }
+th, td { border: 1px solid #c9d3df; padding: 8px 10px; text-align: left; white-space: nowrap; }
+th { background: #217346; color: white; position: sticky; top: 0; }
+tbody tr:nth-child(even) { background: #f2f7f4; }
+tbody tr:hover { background: #dff0e6; }
+td button { padding: 5px 10px; margin: 0 4px 0 0; }
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin: 0 8px 0 0;
+}
